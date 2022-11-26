@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+
+#logo{
+    color: palevioletred;
+    font-size: 50px;
+}
+
+#contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.specs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40%;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#lowest{
+    margin-bottom: 40%;
+}
+
+#odd{
+    display: flex;
+    margin-left: 10%;
+}
+#oddd{
+    display: flex;
+    align-items: center;
+}
+
+#width{
+    width: 35%;
+}
+
+input{
+    width: 34vw;
+    height: 2vw;
+}
+.set{
+    height: 40px;
+    width: 40px;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: antiquewhite;
+    }
+    h1{
+        font-size: 5px;
+    }
+    h2{
+        font-size: 5px;
+    }
+    h3{
+        font-size: 5px;
+    }
+    #logo{
+        font-size: 10px;
+    }
+    .set{
+        height: 10px;
+        width: 10px;
+    }
+    .read{
+        height: 200px;
+        width: 400px;
+    }
+    .display{
+        display: none;
+    }
+    .reed{
+        height: 100px;
+        width: 400px;
+    }
+}
